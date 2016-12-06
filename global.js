@@ -3,13 +3,14 @@ $(function() {
     $("form").submit(function(e) {
         e.preventDefault();
 
-        var url = "http://localhost:8080/";
+        var url = "http://www.kbresearch.nl/genre-classifier/";
 
         $.ajax({
             type: "GET",
             url: url,
             data: $("form").serialize(),
             success: function(data) {
+		console.log(data)
                 $('.output').html(markup(data));
             }
         });
