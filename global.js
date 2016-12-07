@@ -3,6 +3,7 @@ $(function() {
     $("form").submit(function(e) {
         e.preventDefault();
 
+        //var url = "http://localhost:8090"
         var url = "http://www.kbresearch.nl/genre-classifier/";
 
         $.ajax({
@@ -10,7 +11,6 @@ $(function() {
             url: url,
             data: $("form").serialize(),
             success: function(data) {
-		console.log(data)
                 $('.output').html(markup(data));
             }
         });
