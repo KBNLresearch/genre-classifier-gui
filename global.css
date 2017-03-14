@@ -1,7 +1,9 @@
 * {margin: 0; padding: 0; border: 0;}
 body {font-family: helvetica, sans-serif; color: #333; overflow-y: scroll;}
-.header {width: 100%; border-bottom: 1px solid #eee; height: 70px; background-color: #fafafa;}
-.header h1 {float: left; line-height: 70px; margin: 0 10px 0 25px; font-size: 28px;}
+.header {width: 100%; border-bottom: 1px solid #eee; height: 70px;
+    background-color: #fafafa;}
+.header h1 {float: left; line-height: 70px; margin: 0 10px 0 25px;
+    font-size: 28px;}
 a, a:visited {color: #333;}
 a:hover {text-decoration: none;}
 .header .link {float: right; line-height: 70px; margin: 0 25px 0 0;}
@@ -9,8 +11,10 @@ a:hover {text-decoration: none;}
 .wrapper {width: 50%; float: left;}
 .input {padding: 50px 20px;}
 .output {padding: 50px 20px;}
-textarea {width: 96%; height: 535px; border: 1px solid #eee; resize: none; padding: 2%; font-size: 15px; border-radius: 5px;}
-.button {padding: 10px; font-size: 15px; border: 1px solid #eee; background-color: #fff; margin: 5px 0 0 0; border-radius: 5px;}
+textarea {width: 96%; height: 535px; border: 1px solid #eee; resize: none;
+    padding: 2%; font-size: 15px; border-radius: 5px;}
+.button {padding: 10px; font-size: 15px; border: 1px solid #eee;
+    background-color: #fff; margin: 5px 0 0 0; border-radius: 5px;}
 .button:hover {background-color: #fafafa;}
 .content {padding: 25px;}
 .content p {margin-bottom: 20px; font-size: 16px; line-height: 20px;}
