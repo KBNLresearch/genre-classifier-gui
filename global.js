@@ -4,7 +4,7 @@ $(function() {
         e.preventDefault();
 
         //var url = "http://localhost:8090"
-        var url = "/genre-classifier/";
+        var url = "../genre-classifier/";
 
         $.ajax({
             type: "GET",
